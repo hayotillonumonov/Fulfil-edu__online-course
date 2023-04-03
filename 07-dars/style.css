@@ -1,0 +1,24 @@
+.descendant p{
+    color: yellow;
+}
+
+.child > p{
+    color: red;
+}
+
+.adjacent div + p{
+    color: blue;
+}
+
+.general div ~ p{
+    color: blue;
+}
+
+.combined_selectors li.text-red {
+    color: red;
+}
+
+input[type="text"] {
+    color: white;
+    background-color: #333333;
+}

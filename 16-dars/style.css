@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grid-container > div {
+    background-color: blanchedalmond;
+    border: 2px solid red;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    height: 100vh;
+    padding: 15px;
+    font-size: 25px;
+    display: grid;
+    gap: 15px;
+    grid-template-areas:
+        "header header header header header"
+        "sidebar navigation navigation navigation aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "sidebar main main main aside"
+        "footer footer footer footer footer";
+}
+
+.grid-item__1 {
+    grid-area: header;
+}
+
+.grid-item__2 {
+    grid-area: sidebar;
+}
+
+.grid-item__3 {
+    grid-area: navigation;
+}
+
+.grid-item__4 {
+    grid-area: main;
+}
+
+.grid-item__5 {
+    grid-area: aside;
+}
+
+.grid-item__6 {
+    grid-area: footer;
+}

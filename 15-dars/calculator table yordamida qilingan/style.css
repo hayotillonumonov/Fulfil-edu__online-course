@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+}
+
+.cal {
+    margin: 100px auto;
+    width: 520px;
+    height: 590px;
+    background-color: black;
+    padding: 10px;
+}
+
+.display {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: #fff;
+    height: 70px;
+    font-size: 40px
+}
+
+.numbers {
+    width: 600px;
+    height: 600px;
+}
+
+table {
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+td {
+    text-align: center;
+    font-size: 30px;
+    background-color: #505050;
+    border-radius: 10px;
+}
+
+.bg-brown {
+    background-color: brown;
+}
+
+.bg-blue {
+    background-color: royalblue;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
